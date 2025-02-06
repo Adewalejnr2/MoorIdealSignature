@@ -1,0 +1,19 @@
+.sideBarclose{
+    transform: translateX(-100%);
+}
+
+.sideBarOpen{
+    transform: translateX(0);
+}
+
+.close-btn {
+    display: none;
+}
+
+.showSidebar .close-btn {
+    display: flex;
+}
+
+.showSidebar .open-btn {
+    display: none;
+}
